@@ -1,5 +1,4 @@
-# Installs puppet-lint
-package { 'puppet-lint':
-ensure   => '2.5.0',
-provider => gem,
-}
+#!/usr/bin/env bash
+# Generate an RSA key pair with a 4096-bit key length and a passphrase
+ssh-keygen -f ~/.ssh/school -b 4096 -N "betty"
+echo "RSA key pair created successfully!"
